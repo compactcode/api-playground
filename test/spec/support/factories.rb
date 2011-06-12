@@ -1,5 +1,9 @@
 Factory.define :user do |u|
   u.key    'shanon'
   u.secret 's3cr3t'
-  u.email  'sh@non.com'
+end
+
+Factory.define :postcode do |u|
+  u.code '3031'
+  u.name 'Kensington'
 end
